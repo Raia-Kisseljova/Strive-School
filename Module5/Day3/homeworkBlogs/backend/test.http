@@ -1,0 +1,32 @@
+GET http://localhost:3001/blogPosts
+
+###
+
+GET http://localhost:3001/blogPosts/1
+
+###
+
+POST http://localhost:3001/blogPosts/
+Content-Type: application/json
+
+{
+  "title": "",
+  "category": "g"
+}
+
+###
+
+DELETE http://localhost:3001/blogPosts/4j9hco5uwksaejgoo
+
+
+###
+
+PUT http://localhost:3001/blogPosts/4j9hcoda4ksaferbk
+Content-Type: application/json
+
+{
+   "author": {
+      "name": "Neiman",
+      "avatar": "Cat"
+    }
+}

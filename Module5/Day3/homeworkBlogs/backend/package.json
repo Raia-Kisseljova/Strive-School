@@ -1,0 +1,26 @@
+{
+  "name": "homeworkblogs",
+  "version": "1.0.0",
+  "description": "You are in charge of creating a set of WebAPIs for the Strive Blog application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "multer": "^1.4.3",
+    "uniqid": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
